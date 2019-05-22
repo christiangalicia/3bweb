@@ -39,6 +39,7 @@
 /*-----------------fin grid-----------------*/
 body{
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 .fixed{
     position: fixed;
@@ -194,4 +195,80 @@ section.slogan h3{
 .foto{
     overflow: hidden;
     position: relative;
+}
+
+.team img{
+    width:100%;
+}
+.borde{
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+.team{
+    color: #666666;
+    font-weight: normal;
+}
+.margen-80{
+        padding-top: 80px;
+}
+.team span{
+    font-weight: 200;
+    font-size: 20px;
+    vertical-align: 20px;
+}
+.newsletter{
+    padding-top: 40px;
+}
+.newsletter h3{
+    margin-top: 0px;
+    font-size: 40px;
+    color: white;
+    font-weight: 100
+}
+
+.newsletter a{
+    display: inline-block;
+    padding:15px;
+    margin: 10px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #444444
+}
+
+.formulario input, .formulario textarea{
+    width: 100%;
+    border-radius:50px;
+    height: 60px;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+}
+.formulario textarea{
+    height: 200px;
+}
+.formulario{
+    text-align: center;
+}
+.formulario input[type="submit"]{
+    background-color: #e43c5c;
+    width: 200px;
+    color: white;
+    font-weight: 600;
+}
+footer{
+    background-color: #000000;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a{
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    
 }
